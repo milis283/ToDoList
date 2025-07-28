@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C8FD2D9B2E37E55500118A6B /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD2D9A2E37E55500118A6B /* NewToDoView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C8FD2D7E2E37E35000118A6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C8FD2D702E37E34E00118A6B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD2D7D2E37E35000118A6B /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD2D872E37E35000118A6B /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FD2D9A2E37E55500118A6B /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		C8FD2D672E37E34E00118A6B = {
 			isa = PBXGroup;
 			children = (
+				C8FD2D9A2E37E55500118A6B /* NewToDoView.swift */,
 				C8FD2D722E37E34E00118A6B /* ToDoList */,
 				C8FD2D802E37E35000118A6B /* ToDoListTests */,
 				C8FD2D8A2E37E35000118A6B /* ToDoListUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8FD2D9B2E37E55500118A6B /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
